@@ -8,7 +8,7 @@ const ListProd = () => {
 
     useEffect(() => {
         async function fectchData() {
-            const url = await fetch("http://localhost/www/VSCODE%20PROJETOS/PROJETO%20PESSOAL/Com%20REACT/fullstackeletrofelipe/src/BackAnd/Api.php");
+            const url = await fetch("http://localhost/www/VSCODE%20PROJETOS/PROJETO%20PESSOAL/Com%20REACT/fullstackeletrofelipe/src/BackAnd/ApiProdutos.php");
             setProducts(await url.json());
         }
         fectchData();
