@@ -3,17 +3,10 @@ import ListPedidos from '../Component/Pedidos/index.js';
 export default function Pedidos() {
     return (
         <div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mt-5">
                 <form method="post" className="formContatos w-50">
                     <div className="form-group">
-                        <label>Cliente</label>
-                        <input className="form-control" name="nomeCliente"type="text" />
-                    </div>
-                    <div className="form-group">
-                        <label>Cliente</label>
-                        <input className="form-control" name="nomeCliente"type="text" />
-                    </div><div className="form-group">
-                        <label>Cliente</label>
+                        <label>Numero do pedido</label>
                         <input className="form-control" name="nomeCliente"type="text" />
                     </div>
                     <div className="form-group">
@@ -21,15 +14,23 @@ export default function Pedidos() {
                         <input className="form-control" name="nomeCliente"type="text" />
                     </div>
                     <div className="form-group">
-                        <label>Cliente</label>
+                        <label>Nº Produto</label>
                         <input className="form-control" name="nomeCliente"type="text" />
                     </div>
                     <div className="form-group">
-                        <label>Cliente</label>
+                        <label>Produto</label>
                         <input className="form-control" name="nomeCliente"type="text" />
                     </div>
                     <div className="form-group">
-                        <label>Cliente</label>
+                        <label>Valor Unitario</label>
+                        <input className="form-control" name="nomeCliente"type="text" />
+                    </div>
+                    <div className="form-group">
+                        <label>Quantidade</label>
+                        <input className="form-control" name="nomeCliente"type="text" />
+                    </div>
+                    <div className="form-group">
+                        <label>Valor total</label>
                         <input className="form-control" name="nomeCliente"type="text" />
                     </div>
                     <div className="d-flex justify-content-center pb-3">
